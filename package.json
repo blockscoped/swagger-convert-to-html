@@ -1,0 +1,22 @@
+{
+  "name": "swagger-convert-to-html",
+  "version": "1.0.3",
+  "description": "A tiny library to generate static html from swagger.json ",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "bin": {
+    "swagger-convert-to-html": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusnavce/swagger-convert-to-html.git"
+  },
+  "author": "Agustin Navcevich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agusnavce/swagger-convert-to-html/issues"
+  },
+  "homepage": "https://github.com/agusnavce/swagger-convert-to-html#readme"
+}
