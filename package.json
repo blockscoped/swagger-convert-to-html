@@ -7,7 +7,7 @@
     "example": "example"
   },
   "bin": {
-    "swagger-convert-to-html": "src/index.js"
+    "@blockscoped/swagger-convert-to-html": "src/index.js"
   },
   "repository": {
     "type": "git",
