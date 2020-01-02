@@ -24,7 +24,8 @@ var setup = function (swaggerDoc, customfavIcon, customeSiteTitle) {
     : favIconHtml
 
   var explorerString =
-    '.swagger-ui .topbar .download-url-wrapper { display: none }'
+  '.swagger-ui .topbar { display: none }\n' +
+  'a[href*="swagger.io"] { display: none }';
   var htmlWithCustomCss = html
     .toString()
     .replace('<% customCss %>', explorerString)
