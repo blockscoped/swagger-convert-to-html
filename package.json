@@ -15,8 +15,5 @@
   },
   "author": "Agustin Navcevich",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/agusnavce/swagger-convert-to-html/issues"
-  },
   "homepage": "https://github.com/blockscoped/swagger-convert-to-html.git#readme"
 }
