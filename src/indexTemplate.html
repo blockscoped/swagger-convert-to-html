@@ -80,7 +80,7 @@
     }
     var options = JSON.parse(document.getElementById('swagger-options').innerText)
     url = options.swaggerUrl || url
-    var customOptions = options.customOptions
+    var customOptions = options.customOptions || {}
     var spec1 = options.swaggerDoc
     var swaggerOptions = {
       spec: spec1,
