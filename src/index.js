@@ -24,8 +24,27 @@ var setup = function (swaggerDoc, customfavIcon, customeSiteTitle) {
     : favIconHtml
 
   var explorerString =
-  '.swagger-ui .topbar { display: none }\n' +
-  'a[href*="swagger.io"] { display: none }';
+    '.swagger-ui .topbar { display: none }\n' +
+    '.swagger-ui .opblock .opblock-section-header h4 { font-size: 16px }' +
+    '.swagger-ui .markdown p { margin: 0; line-height: 1.6; font-size: 15px; }' +
+    '.swagger-ui .markdown p + p { margin-bottom: 1em; }' +
+    '.swagger-ui li { line-height: 2; font-size: 15px; }' +
+    '.swagger-ui .parameters-col_description { width: 50% }' +
+    '.swagger-ui .parameter__name { flex-basis: 23% }' +
+    '.swagger-ui .parameter__type { flex-basis: 23%; font-size: 14px; }' +
+    '.swagger-ui .parameter__in { font-size: 14px; }' +
+    '.swagger-ui .parameters-col_description input[type=text] { display: none; }' +
+    '.swagger-ui table tbody tr td { padding: 12px; vertical-align: baseline; }' +
+    '.swagger-ui table tbody tr td:first-of-type { display: flex; justify-content: flex-start; align-items: center; max-width: none; min-width: 0; padding: 12px; }' +
+    '.swagger-ui .response-col_description { width: 90% }' +
+    '.swagger-ui .opblock-body pre.microlight { font-size: 14px; line-height: 1.4; font-weight: 300; }' +
+    '.swagger-ui table thead tr td, .swagger-ui table thead tr th { padding: 12px; font-size: 15px; }' +
+    'thead { background: rgba(0, 0, 0, 0.07); }' +
+    '.swagger-ui .execute-wrapper { padding: 0; }' +
+    '.swagger-ui .btn.execute { margin: 20px }' +
+    '.swagger-ui tbody .response-col_status { font-size: 16px }' +
+    '.swagger-ui .model { line-height: 1.4; font-size: 14px }' +
+    'a[href*="swagger.io"] { display: none }';
   var htmlWithCustomCss = html
     .toString()
     .replace('<% customCss %>', explorerString)
