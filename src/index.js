@@ -51,6 +51,7 @@ var setup = function (swaggerDoc, customfavIcon, customeSiteTitle) {
     '.swagger-ui .model-box .markdown { display: block; margin-left: 2em }' +
     '.swagger-ui .model-box .markdown + span { display: block; margin-left: 2em }' +
     '.swagger-ui table.model tbody tr td { padding: 0.5em 2em; }' +
+    '.swagger-ui table.model tbody tr td:first-of-type { padding: 0.5em 2em; }' +
     '.swagger-ui .model-box .prop .markdown { margin: 0; font-style: italic; opacity: 0.7; font-weight: 300; }' +
     'a[href*="swagger.io"] { display: none }';
   var htmlWithCustomCss = html

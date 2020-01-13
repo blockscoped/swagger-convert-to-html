@@ -1,6 +1,6 @@
 {
   "name": "@blockscoped/swagger-convert-to-html",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A tiny library to generate static html from swagger.json ",
   "main": "src/index.js",
   "directories": {
