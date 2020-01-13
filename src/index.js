@@ -43,7 +43,14 @@ var setup = function (swaggerDoc, customfavIcon, customeSiteTitle) {
     '.swagger-ui .execute-wrapper { padding: 0; }' +
     '.swagger-ui .btn.execute { margin: 20px }' +
     '.swagger-ui tbody .response-col_status { font-size: 16px }' +
-    '.swagger-ui .model { line-height: 1.4; font-size: 14px }' +
+    '.swagger-ui .model { line-height: 1.4; font-size: 14px; color: inherit; }' +
+    '.swagger-ui .model-box { display: block; background: #41444e; color: #f1f1f1; }' +
+    '.swagger-ui .model-title { color: inherit; }' +
+    '.swagger-ui .prop-type { color: #6de082; }' +
+    '.swagger-ui .prop-format { color: inherit; margin-left: 0.5em; }' +
+    '.swagger-ui .model-box .markdown { display: block; margin-left: 2em }' +
+    '.swagger-ui .model-box .markdown + span { display: block; margin-left: 2em }' +
+    '.swagger-ui .model-box .prop .markdown { margin: 0; font-style: italic; opacity: 0.7; font-weight: 300; }' +
     'a[href*="swagger.io"] { display: none }';
   var htmlWithCustomCss = html
     .toString()
